@@ -35,11 +35,3 @@ function countZeroes(arr) {
   module.exports = countZeroes;
 
 
-Test Cases :
-const countZeroes = require('./countZeroes');
-
-console.log(countZeroes([1, 1, 0, 0, 0])); // Expected output: 3
-console.log(countZeroes([1, 1, 1])); // Expected output: 0
-console.log(countZeroes([0, 0, 0, 0])); // Expected output: 4
-console.log(countZeroes([])); // Expected output: 0
-
